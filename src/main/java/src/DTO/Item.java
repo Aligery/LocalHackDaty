@@ -1,6 +1,8 @@
 package src.DTO;
 
-;
+;import src.MappingControllers.Tags;
+
+import java.util.ArrayList;
 
 public class Item {
     public Item() {
@@ -12,6 +14,7 @@ public class Item {
     private String UrlImage;
     private int price;
     private ItemType itemType;
+    private Tags tag;
 
     public String getNAME() {
         return NAME;
@@ -56,4 +59,13 @@ public class Item {
     public void setItemType(ItemType itemTpe) {
         this.itemType = itemTpe;
     }
+
+    public Tags getTag() {
+        return tag;
+    }
+
+    public void setTag(Tags tag) {
+        this.tag = tag;
+    }
+
 }
