@@ -1,0 +1,15 @@
+git .idea/
+target/
+classes
+*.iml
+logs/
+/bin/
+.classpath
+.project
+.settings/
+settings.xml
+bin/
+META-INF
+liquibase.properties
+.DS_Store
+
